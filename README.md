@@ -1,6 +1,6 @@
 # Reading Notes
 
-This website will contain information that I have learned across my journey through the ***software development multiverse.***
+This website will contain information that I have learned across my journey through the ***software development multiverse.*** :shipit:
 ![Alt image text](https://i.picsum.photos/id/0/200/200.jpg?hmac=RZmZI0kb9l_aRWHFyOZUGyc8xsyV30HOJX8a4wuHWkA)
 
 ## Code 102 - Intro to Software Development

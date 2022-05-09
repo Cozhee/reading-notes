@@ -1,7 +1,7 @@
 # Reading Notes
 
 This website will contain information that I have learned across my journey through the ***software development multiverse.***
-![Alt image text](https://picsum.photos/200)
+![Alt image text](https://picsum.photos/200)![Alt image text](https://picsum.photos/200)![Alt image text](https://picsum.photos/200)![Alt image text](https://picsum.photos/200)
 
 ## Code 102 - Intro to Software Development
 

@@ -1,6 +1,6 @@
 # Reading Notes
 
-This website will contain information that I have learned across my journey through the software development multiverse.
+This website will contain information that I have learned across my journey through the ***software development multiverse.***
 
 ## Code 102 - Intro to Software Development
 

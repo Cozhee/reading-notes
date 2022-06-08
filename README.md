@@ -11,3 +11,4 @@ This website will contain information that I have learned across my journey thro
   [1. Component and Props](https://github.com/Cozhee/reading-notes/blob/main/301/Class01.md)
 
 ## Code 401 - Advanced Software Development
+1.[Async](https://github.com/Cozhee/reading-notes/blob/main/401/Async%20Progamming)

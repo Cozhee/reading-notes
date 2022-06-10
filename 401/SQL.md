@@ -15,3 +15,6 @@ Practice all the commands we just learned!
 
 ## Lesson 6: Multi-table queries with JOINs
 Multi-table queries can be a little bit more complex but once you understand the syntax are actually powerful and straight forward. Lets say for example we have two tables, `Movies` and `Boxoffice`. We need to select the columns that we want to display from BOTH tables when we join them. So for this example we will use `title`, `domestic_sales`, and `international_sales`. Just making the assumption these tables have these columns. So, `SELECT title, domestic_sales, international_sales` next we join the tables, `FROM movies JOIN boxoffice ON movies.id = boxoffice.movie_id`. This can be a bit confusing but lets take note of `boxoffice.movie_id`. The first part `boxoffice` is just the reference to the table, so our second table! `movie.id` is the properties on the table!
+
+## Lesson 13: Inserting rows
+Take for instance we have a new user that we are adding to our database. We need to somehow insert them into our schema! The syntax for this would look something similar to `INSERT INTO <tablename> (columnName, columnName) VALUES (value1, value2, etc..)`. Although this can look to be simple it can sometimes be frustratating just based on types or inserting things like dates or time. This part can be very pick but this is important to keep our schema consistent and secure.

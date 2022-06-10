@@ -12,3 +12,5 @@ This website will contain information that I have learned across my journey thro
 
 ## Code 401 - Advanced Software Development
 1. [Async](https://github.com/Cozhee/reading-notes/blob/main/401/Async%20Progamming)
+2. [SQL](https://github.com/Cozhee/reading-notes/blob/main/401/SQL.md)
+3. [Terminal Practice](https://github.com/Cozhee/reading-notes/blob/main/401/Terminal%20Practice.md)

@@ -20,6 +20,11 @@ Multi-table queries can be a little bit more complex but once you understand the
 Take for instance we have a new user that we are adding to our database. We need to somehow insert them into our schema! The syntax for this would look something similar to `INSERT INTO <tablename> (columnName, columnName) VALUES (value1, value2, etc..)`. Although this can look to be simple it can sometimes be frustratating just based on types or inserting things like dates or time. This part can be very pick but this is important to keep our schema consistent and secure.
 
 ## Lesson 14: Updating rows
-Updating rows in a table is somewhat similar to inserting a row. Although the syntax is different it should be straight forward. This is a common task which can be accomplished using the `UPDATE` command. It is common to make mistakes when working with data so having this tool is very handy. Using the syntax `UPDATE <tableName> SET <column> = <your-value>` WHERE <your-condition>. You must pay extra attention when writing these queries in order to maintain consistent data.
+Updating rows in a table is somewhat similar to inserting a row. Although the syntax is different it should be straight forward. This is a common task which can be accomplished using the `UPDATE` command. It is common to make mistakes when working with data so having this tool is very handy. Using the syntax `UPDATE <tableName> SET <column> = <your-value> WHERE <your-condition>`. You must pay extra attention when writing these queries in order to maintain consistent data.
 
 ## Lesson 15: Deleting rows
+The command `DELETE FROM <tableName> WHERE <your-condition> is a straight forward command to delete entires in your database. Make sure to add in a `WHERE` clause or else you will end up deleting all of your data in a table. Although this is a good method to completely clear out a table it can also be a disatrious one.
+
+## Lesson 16: Creating tables
+Creating tables is where you will start to define your database schema. You will label your table names as well as define the type of data each table will represent. Being detailed in this step is cruical to have an air tight database. In order to create a table you run the following command, `CREATE <tableName> (<name> <type> <options>)`. I know this might look a little confusing. But I promise it is easy! [Here](https://sqlbolt.com/lesson/creating_tables) is a quick reference to really see what a simple example looks like! 
+ 

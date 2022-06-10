@@ -6,3 +6,6 @@ From our queires we can add a constraint to only return us data that we need. Th
 
 ## Lesson 3: Queries with constraints (Pt. 2)
 Within the constraints you also have comparison operators that can do a number of things. Just to list a few we have `=`, `!=`, `<>`, `LIKE`, `NOT LIKE`, `%`, `IN`, and `NOT IN`. These are just a few and most operators names are descriptive of their actions.
+
+## Lesson 4: Filtering and sorting Query results
+With large datasets sometimes our queries can return duplicate data which would not be ideal. In these cases we have a keyword `DISTINCT` that will blindly remove any duplicate values returned in our query. `LIMIT` is an excellent clause to use when you want to only return a specific amount of results from your query. For example `LIMIT 4;` will only return 4 entries.

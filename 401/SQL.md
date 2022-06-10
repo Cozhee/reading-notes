@@ -23,9 +23,10 @@ Take for instance we have a new user that we are adding to our database. We need
 Updating rows in a table is somewhat similar to inserting a row. Although the syntax is different it should be straight forward. This is a common task which can be accomplished using the `UPDATE` command. It is common to make mistakes when working with data so having this tool is very handy. Using the syntax `UPDATE <tableName> SET <column> = <your-value> WHERE <your-condition>`. You must pay extra attention when writing these queries in order to maintain consistent data.
 
 ## Lesson 15: Deleting rows
-The command `DELETE FROM <tableName> WHERE <your-condition> is a straight forward command to delete entires in your database. Make sure to add in a `WHERE` clause or else you will end up deleting all of your data in a table. Although this is a good method to completely clear out a table it can also be a disatrious one.
+The command `DELETE FROM <tableName> WHERE <your-condition>` is a straight forward command to delete entires in your database. Make sure to add in a `WHERE` clause or else you will end up deleting all of your data in a table. Although this is a good method to completely clear out a table it can also be a disatrious one.
 
 ## Lesson 16: Creating tables
 Creating tables is where you will start to define your database schema. You will label your table names as well as define the type of data each table will represent. Being detailed in this step is cruical to have an air tight database. In order to create a table you run the following command, `CREATE <tableName> (<name> <type> <options>)`. I know this might look a little confusing. But I promise it is easy! [Here](https://sqlbolt.com/lesson/creating_tables) is a quick reference to really see what a simple example looks like! 
  
 ## Lesson 17: Altering tables
+As data expands we need to adapt and have a database to represent our product. Luckily there is an alter command to help us with that! It is similar to creating a row, so here is the syntax, `ALTER TABLE <tableName> ADD column <constraints> DEFAULT <value>`. Confusing I know. That is only because of my examples. So instead [here](https://sqlbolt.com/lesson/altering_tables) is another great reference to see what I mean!

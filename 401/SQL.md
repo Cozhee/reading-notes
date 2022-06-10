@@ -28,3 +28,4 @@ The command `DELETE FROM <tableName> WHERE <your-condition> is a straight forwar
 ## Lesson 16: Creating tables
 Creating tables is where you will start to define your database schema. You will label your table names as well as define the type of data each table will represent. Being detailed in this step is cruical to have an air tight database. In order to create a table you run the following command, `CREATE <tableName> (<name> <type> <options>)`. I know this might look a little confusing. But I promise it is easy! [Here](https://sqlbolt.com/lesson/creating_tables) is a quick reference to really see what a simple example looks like! 
  
+## Lesson 17: Altering tables

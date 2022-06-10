@@ -9,3 +9,9 @@ Within the constraints you also have comparison operators that can do a number o
 
 ## Lesson 4: Filtering and sorting Query results
 With large datasets sometimes our queries can return duplicate data which would not be ideal. In these cases we have a keyword `DISTINCT` that will blindly remove any duplicate values returned in our query. `LIMIT` is an excellent clause to use when you want to only return a specific amount of results from your query. For example `LIMIT 4;` will only return 4 entries. Using the `OFFSET` command will specify where to start counting.
+
+## Lesson 5: Practice
+Practice all the commands we just learned!
+
+## Lesson 6: Multi-table queries with JOINs
+Multi-table queries can be a little bit more complex but once you understand the syntax are actually powerful and straight forward. Lets say for example we have two tables, `Movies` and `Boxoffice`. We need to select the columns that we want to display from BOTH tables when we join them. So for this example we will use `title`, `domestic_sales`, and `international_sales`. Just making the assumption these tables have these columns. So, `SELECT title, domestic_sales, international_sales` next we join the tables, `FROM movies JOIN boxoffice ON movies.id = boxoffice.movie_id` 

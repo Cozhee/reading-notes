@@ -1,5 +1,6 @@
 ## Lesson 1 SELECT queires 101
 We use these types of queires to retrieve data from a database. An example statement would look similiar to something like `SELECT * FROM restaurants`. Essentially what this query does is select all (*) entires from the restaurants table.
+<img width="1168" alt="Screen Shot 2022-06-09 at 4 58 53 PM" src="https://user-images.githubusercontent.com/55909913/172994955-03294185-a2f9-4ee2-9160-dbc6bec4e110.png">
 
 ## Lesson 2 Queries with constraints (Pt. 1)
 From our queires we can add a constraint to only return us data that we need. This is necessary for large data sets for performance among many other reasons. One example is to use something called the `WHERE` clause. `SELECT name FROM people WHERE name="cody"`. You can have multiple constraints on a single query and can even use the `AND` and `OR` clauses.

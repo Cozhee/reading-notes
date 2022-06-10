@@ -18,3 +18,8 @@ Multi-table queries can be a little bit more complex but once you understand the
 
 ## Lesson 13: Inserting rows
 Take for instance we have a new user that we are adding to our database. We need to somehow insert them into our schema! The syntax for this would look something similar to `INSERT INTO <tablename> (columnName, columnName) VALUES (value1, value2, etc..)`. Although this can look to be simple it can sometimes be frustratating just based on types or inserting things like dates or time. This part can be very pick but this is important to keep our schema consistent and secure.
+
+## Lesson 14: Updating rows
+Updating rows in a table is somewhat similar to inserting a row. Although the syntax is different it should be straight forward. This is a common task which can be accomplished using the `UPDATE` command. It is common to make mistakes when working with data so having this tool is very handy. Using the syntax `UPDATE <tableName> SET <column> = <your-value>` WHERE <your-condition>. You must pay extra attention when writing these queries in order to maintain consistent data.
+
+## Lesson 15: Deleting rows
